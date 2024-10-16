@@ -25,11 +25,11 @@ const LeftSideNav = () => {
                     >{category.name}</Link>)
             }
 
-            <div className="space-y-6">
+            {/* <div className="space-y-6">
                 {
-                    news.map(singleNews => <img src={singleNews.image_url}></img>)
+                    news.map(singleNews => <img key={singleNews._id} src={singleNews.image_url}></img>)
                 }
-            </div>
+            </div> */}
         </div>
     );
 };
